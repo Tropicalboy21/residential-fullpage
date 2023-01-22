@@ -1,0 +1,381 @@
+body {
+    background: rgb(233, 236, 244);
+    background: linear-gradient(90deg, rgba(233, 236, 244, 1) 0%, rgba(233, 236, 244, 1) 21%, rgba(235, 239, 244, 1) 44%, rgba(236, 240, 245, 1) 72%, rgba(236, 240, 245, 1) 100%);
+}
+
+.bg {
+    background: rgb(233, 236, 244);
+    background: linear-gradient(90deg, rgba(233, 236, 244, 1) 0%, rgba(233, 236, 244, 1) 21%, rgba(235, 239, 244, 1) 44%, rgba(236, 240, 245, 1) 72%, rgba(236, 240, 245, 1) 100%);
+}
+
+
+/* Header */
+
+.logo-2 {
+    height: 120px;
+    width: 120px;
+}
+
+.logo-2 img {
+    width: 100%;
+}
+
+.logo-1 {
+    height: 120px;
+    width: 120px;
+}
+
+.logo-1 img {
+    width: 100%;
+}
+
+.collapse {
+    width: 400px;
+}
+
+.menu {
+    background: rgb(233, 236, 244);
+    background: linear-gradient(90deg, rgba(233, 236, 244, 1) 0%, rgba(233, 236, 244, 1) 21%, rgba(235, 239, 244, 1) 44%, rgba(236, 240, 245, 1) 72%, rgba(236, 240, 245, 1) 100%);
+}
+
+a {
+    color: #3B485B !important;
+    font-family: "Gibson", sans-serif;
+    font-weight: bold;
+}
+
+.nav .a {
+    color: #727f8d !important;
+    font-family: "Gibson", sans-serif;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #3B485B !important;
+}
+
+.menu .nav .nav-item {
+    position: relative;
+}
+
+a::after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #3B485B;
+    width: 0%;
+    content: "";
+    transition: all 0.5s;
+    height: 7px;
+    text-align: center;
+    transform: rotate(45deg);
+    width: 7px;
+    display: none;
+}
+
+.b::after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #3B485B;
+    width: 0%;
+    content: "";
+    transition: all 0.5s;
+    height: 7px;
+    text-align: center;
+    transform: rotate(45deg);
+    width: 7px;
+    display: block;
+}
+
+.menu .nav .nav-item .nav-link:hover::after {
+    display: block;
+}
+
+.hr {
+    background: rgb(233, 236, 244);
+    background: linear-gradient(90deg, rgba(233, 236, 244, 1) 0%, rgba(233, 236, 244, 1) 21%, rgba(235, 239, 244, 1) 44%, rgba(236, 240, 245, 1) 72%, rgba(236, 240, 245, 1) 100%);
+}
+
+hr {
+    color: #94A4B4;
+    height: 1px !important;
+    width: 65%;
+}
+
+.divider {
+    position: relative;
+    height: 1px;
+}
+
+.div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(148, 164, 180), transparent);
+}
+
+.lang-selector-item-1 {
+    border-right: #3B485B solid 1px;
+}
+
+.lang-selector-item-2 {
+    border-left: #3B485B solid 1px;
+}
+
+
+/* text */
+
+.title {
+    font-family: "Gibson", sans-serif;
+    font-size: 100px !important;
+    font-weight: bold;
+    color: #fff !important;
+    text-shadow: #3B485B 1px 1px 0;
+}
+
+.txt-box p {
+    font-family: "Gibson", sans-serif;
+    font-weight: lighter;
+    font-size: 25px !important;
+}
+
+.txt-box h1 {
+    font-family: "Gibson", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.subtitle {
+    font-family: "Gibson", sans-serif;
+    font-size: 25px !important;
+    font-weight: light;
+    color: #fff !important;
+}
+
+
+/* botones */
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 20px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #fff;
+    /* Set a background color */
+    color: #000;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 20px 25px 20px 25px;
+    /* Some padding */
+    font-size: 20px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: rgb(173, 173, 173);
+    color: #000;
+    /* Add a dark-grey background on hover */
+}
+
+.container1 {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.center {
+    width: 180px;
+    height: 60px;
+    position: relative;
+}
+
+.btn {
+    font-family: "Gibson", sans-serif;
+    border-radius: 0 !important;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: rgba(255, 255, 255, 0.254);
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn span {
+    font-family: "Gibson", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Section Principal */
+
+.banner {
+    background-image: url("../imgs/torre1.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.container-fluid4 {
+    height: 700px;
+}
+
+
+/* Section Proyecto  */
+
+.banner1 {
+    background-image: url("../imgs/torre9.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation: shrink 5s ease infinite alternate;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.147);
+}
+
+.sct-proyecto {
+    height: 50vh;
+    position: relative;
+}
+
+.sct-proyecto img {
+    height: 100%;
+}
+
+
+/* Section Apartamentos */
+
+.banner2 {
+    background-image: url("../imgs/apartamentos.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation: shrink 5s ease infinite alternate;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.147);
+}
+
+
+/* Section Amenidades */
+
+.banner3 {
+    background-image: url("../imgs/interior7.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation: shrink 5s ease infinite alternate;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.147);
+}
+
+
+/* Section Financiamiento */
+
+.banner4 {
+    background-image: url("../imgs/torr34.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation: shrink 5s ease infinite alternate;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.147);
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #3B485B;
+    font-family: "Gibson", sans-serif;
+    font-weight: lighter;
+}
+
+
+/* Media querys */
+
+@media(max-width: 542px) {
+    .title {
+        font-size: 60px !important;
+    }
+    .banner {
+        background-size: cover;
+    }
+    .container-fluid4 {
+        height: 550px;
+    }
+    .logo-1 {
+        display: none;
+    }
+    .lang-selector {
+        display: none;
+    }
+    .logo-2 {
+        display: block;
+    }
+    .a::after {
+        bottom: 17px;
+    }
+    .b::after {
+        bottom: 17px;
+    }
+}
+
+
+/* Animaciones */
+
+@keyframes shrink {
+    0% {
+        background-size: 110% 110%;
+    }
+    100% {
+        background-size: 100% 100%;
+    }
+}
+
+@keyframes a {
+    0% {
+        background-position: 0 -1880px;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

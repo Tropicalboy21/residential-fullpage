@@ -1,0 +1,251 @@
+body {
+    background-color: #DBD8D5 !important;
+    box-sizing: border-box;
+}
+
+.bg {
+    background: rgb(233, 236, 244);
+    background: linear-gradient(90deg, rgba(233, 236, 244, 1) 0%, rgba(233, 236, 244, 1) 21%, rgba(235, 239, 244, 1) 44%, rgba(236, 240, 245, 1) 72%, rgba(236, 240, 245, 1) 100%);
+}
+
+.menu {
+    height: 90px;
+    background: rgb(233, 236, 244);
+    background: linear-gradient(90deg, rgba(233, 236, 244, 1) 0%, rgba(233, 236, 244, 1) 21%, rgba(235, 239, 244, 1) 44%, rgba(236, 240, 245, 1) 72%, rgba(236, 240, 245, 1) 100%);
+}
+
+.container-fluid4 {
+    height: 800px;
+}
+
+.title {
+    font-family: "Gibson", sans-serif;
+    font-size: 70px !important;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.news {
+    height: 670px !important;
+}
+
+.txt-box p {
+    font-family: "Gibson", sans-serif;
+    font-weight: light;
+    font-size: 20px !important;
+}
+
+.txt-box h1 {
+    font-family: "Gibson", sans-serif;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-family: "Gibson", sans-serif;
+    font-size: 25px !important;
+    font-weight: light;
+    color: #fff !important;
+}
+
+.banner2 {
+    background-image: url("../imgs/torre3.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+    /* background-attachment: fixed;
+    animation: a 10s ease infinite alternate;
+    */
+}
+
+.banner3 {
+    background-image: url("../imgs/torre8.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed;
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+    animation: a 10s ease infinite alternate;
+    */
+}
+
+.banner4 {
+    background-image: url("../imgs/interior7.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed;
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+    animation: a 10s ease infinite alternate;
+    */
+}
+
+.sct-entrance {
+    background: rgb(233, 236, 244);
+    background: linear-gradient(90deg, rgba(233, 236, 244, 1) 0%, rgba(233, 236, 244, 1) 21%, rgba(235, 239, 244, 1) 44%, rgba(236, 240, 245, 1) 72%, rgba(236, 240, 245, 1) 100%);
+}
+
+.banner5 {
+    background-image: url("../imgs/torre2.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed;
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+    animation: a 10s ease infinite alternate;
+    */
+}
+
+@keyframes a {
+    0% {
+        background-position: 0 -1880px;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.banner {
+    height: 740px !important;
+}
+
+.banner img {
+    height: 100%;
+    width: 90%;
+}
+
+.nav a {
+    color: #3B485B !important;
+    font-family: "Gibson", sans-serif;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #94A4B4 !important;
+}
+
+.hr {
+    background: rgb(233, 236, 244);
+    background: linear-gradient(90deg, rgba(233, 236, 244, 1) 0%, rgba(233, 236, 244, 1) 21%, rgba(235, 239, 244, 1) 44%, rgba(236, 240, 245, 1) 72%, rgba(236, 240, 245, 1) 100%);
+}
+
+hr {
+    color: #94A4B4;
+    height: 1px !important;
+    width: 65%;
+}
+
+.divider {
+    position: relative;
+    height: 1px;
+}
+
+.div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(148, 164, 180), transparent);
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+.footer {
+    background-color: #DBD8D5;
+    font-family: "Gibson", sans-serif;
+    font-weight: lighter;
+    display: ;
+}
+
+@media(max-width: 542px) {
+    .container-fluid4 {
+        height: 550px;
+    }
+    .news {
+        height: 550px !important;
+    }
+}
+
+
+/* ---- reset ---- */
+
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #b61924;
+    background-image: url("/imgs/torre3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles {
+    background: #000122;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
+
+.test {
+    /* index: 50; */
+    position: absolute;
+    top: 450px;
+    left: 30px;
+    right: 30px;
+}
+
+@media(max-width: 542px) {
+    .test {
+        top: 150px;
+        left: 0;
+        right: 0;
+    }
+}

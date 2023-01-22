@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+
+
+/* Header */
+
+.logo-2 {
+    height: 120px;
+    width: 120px;
+}
+
+.logo-2 img {
+    width: 100%;
+}
+
+.logo-1 {
+    height: 120px;
+    width: 120px;
+}
+
+.logo-1 img {
+    width: 100%;
+}
+
+.collapse {
+    width: 400px;
+}
+
+a {
+    color: #000 !important;
+    font-family: "Gibson", sans-serif;
+    font-weight: bold;
+}
+
+.nav .a {
+    color: #727f8d !important;
+    font-family: "Gibson", sans-serif;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #000 !important;
+}
+
+.menu {
+    background-color: #fff;
+}
+
+.menu .nav .nav-item {
+    position: relative;
+}
+
+a::after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #000;
+    width: 0%;
+    content: "";
+    transition: all 0.5s;
+    height: 7px;
+    text-align: center;
+    transform: rotate(45deg);
+    width: 7px;
+    display: none;
+}
+
+.b::after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #000;
+    width: 0%;
+    content: "";
+    transition: all 0.5s;
+    height: 7px;
+    text-align: center;
+    transform: rotate(45deg);
+    width: 7px;
+    display: block;
+}
+
+.menu .nav .nav-item .nav-link:hover::after {
+    display: block;
+}
+
+.hr {
+    background: rgb(233, 236, 244);
+    background: linear-gradient(90deg, rgba(233, 236, 244, 1) 0%, rgba(233, 236, 244, 1) 21%, rgba(235, 239, 244, 1) 44%, rgba(236, 240, 245, 1) 72%, rgba(236, 240, 245, 1) 100%);
+}
+
+hr {
+    color: #94A4B4;
+    height: 1px !important;
+    width: 65%;
+}
+
+.divider {
+    position: relative;
+    height: 1px;
+}
+
+.div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(148, 164, 180), transparent);
+}
+
+.lang-selector-item-1 {
+    border-right: #3B485B solid 1px;
+}
+
+.lang-selector-item-2 {
+    border-left: #3B485B solid 1px;
+}
+
+
+/* botones */
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 20px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #fff;
+    /* Set a background color */
+    color: #000;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 20px 25px 20px 25px;
+    /* Some padding */
+    font-size: 20px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: rgb(173, 173, 173);
+    color: #000;
+    /* Add a dark-grey background on hover */
+}
+
+.container1 {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.center {
+    width: 180px;
+    height: 60px;
+    position: relative;
+}
+
+.btn {
+    font-family: "Gibson", sans-serif;
+    border-radius: 0 !important;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: rgba(255, 255, 255, 0.254);
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn span {
+    font-family: "Gibson", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container2 {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.center {
+    width: 180px;
+    height: 60px;
+    position: relative;
+}
+
+.btn2 {
+    font-family: "Gibson", sans-serif;
+    border-radius: 0 !important;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #000;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #000;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn2:hover {
+    transition: 1s ease-in-out;
+    background: rgba(228, 228, 228, 0);
+}
+
+.btn2:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn2 span {
+    font-family: "Gibson", sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.galleryBtn {
+    border-radius: 0% !important;
+}
+
+
+/* Gallery 4 */
+
+.banner3 {
+    background-color: #fff;
+}
+
+.dev {
+    height: 670px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.gallery a {
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.gallery a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery a img:hover {
+    transform: scale(1.4);
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #000;
+    font-family: "Gibson", sans-serif;
+    font-weight: lighter;
+}
+
+
+/* Media querys */
+
+@media(max-width: 542px) {
+    .a::after {
+        bottom: 17px;
+    }
+    .b::after {
+        bottom: 17px;
+    }
+}
