@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Gibson';
+    src: local('Gibson Bold'), local('Gibson-Bold'), url('Gibson-Bold.woft') format('oft');
+    /* url('BlenderPro-Bold.woff') format('woff'),
+        url('BlenderPro-Bold.ttf') format('truetype'); */
+    font-weight: 700;
+    font-style: normal;
+}
