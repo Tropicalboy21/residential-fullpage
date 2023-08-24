@@ -31,15 +31,15 @@ const validar = () => {
             'icon': 'success',
             'confirmButtonText': 'Entendido'
         }).then(() => {
-            location.href = "home.html"
+            location.href = "./home.html"
         });
     }
 }
 
 button.addEventListener('click', validar);
 
-document.addEventListener("DOMContentLoaded", function() {
-    window.addEventListener('scroll', function() {
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener('scroll', function () {
         if (window.scrollY > 50) {
             document.getElementById('navbar_top').classList.add('fixed-top');
             // add padding top to show content behind navbar

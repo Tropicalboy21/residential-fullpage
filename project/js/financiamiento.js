@@ -1,6 +1,6 @@
 // Navigation bar
-document.addEventListener("DOMContentLoaded", function() {
-    window.addEventListener('scroll', function() {
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener('scroll', function () {
         if (window.scrollY > 50) {
             document.getElementById('navbar_top').classList.add('fixed-top');
             // add padding top to show content behind navbar
@@ -24,7 +24,7 @@ const navLinks = document.querySelectorAll(' nav .a').forEach(link => {
 
 // **** Section 1 ****
 // Carga la funcion automaticamente
-document.getElementById("beneficio").onchange = function(e) {
+document.getElementById("beneficio").onchange = function (e) {
     a = e.target.value;
     // Cada condicional guarda el tipo de carro.
     if (a == "Ubicación") {
@@ -47,11 +47,11 @@ document.getElementById("beneficio").onchange = function(e) {
 
 // **** Section 2 ****
 // validar
-window.onload = function() {
-    document.getElementById("experiencia").onchange = function(e) {
+window.onload = function () {
+    document.getElementById("experiencia").onchange = function (e) {
         a = e.target.value;
         // Hace conexion con el id de la version del carro
-        document.getElementById("ubicacion").onchange = function(es) {
+        document.getElementById("ubicacion").onchange = function (es) {
             n = es.target.value;
             // Hace conexion con el id de la imagen del carro 
             document.getElementById('imagen').src = imagen;
@@ -93,7 +93,7 @@ function validar() {
                         imageHeight: 200,
                         imageAlt: "Accepted",
                     }).then(() => {
-                        location.href = "contacto.html"
+                        location.href = "./contacto.html"
                     });
                 }
             }
@@ -443,7 +443,7 @@ const popUp1 = () => {
             'text': 'Su opinión es importante!',
             'confirmButtonText': 'ok'
         }).then(() => {
-            location.href = "home.html"
+            location.href = "./home.html"
         });
     };
 }
@@ -452,6 +452,6 @@ btnPop.addEventListener('click', popUp1);
 
 
 // **** Footer ****
-document.getElementById("btn-contacto").onclick = function() {
-    location.href = "/contacto.html"
+document.getElementById("btn-contacto").onclick = function () {
+    location.href = "./contacto.html"
 };

@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() {
-    window.addEventListener('scroll', function() {
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener('scroll', function () {
         if (window.scrollY > 50) {
             document.getElementById('navbar_top').classList.add('fixed-top');
             // add padding top to show content behind navbar
@@ -23,22 +23,22 @@ const navLinks = document.querySelectorAll(' nav .a').forEach(link => {
 })
 
 
-document.getElementById("btn-proyecto").onclick = function() {
-    location.href = "/proyecto.html"
+document.getElementById("btn-proyecto").onclick = function () {
+    location.href = "./proyecto.html"
 }
 
-document.getElementById("btn-apartamentos").onclick = function() {
-    location.href = "/apartamentos.html"
+document.getElementById("btn-apartamentos").onclick = function () {
+    location.href = "./apartamentos.html"
 }
 
-document.getElementById("btn-amenidades").onclick = function() {
-    location.href = "/amenidades.html"
+document.getElementById("btn-amenidades").onclick = function () {
+    location.href = "./amenidades.html"
 }
 
-document.getElementById("btn-financiamiento").onclick = function() {
-    location.href = "/financiamiento.html"
+document.getElementById("btn-financiamiento").onclick = function () {
+    location.href = "./financiamiento.html"
 }
 
-document.getElementById("btn-contacto").onclick = function() {
-    location.href = "/contacto.html"
+document.getElementById("btn-contacto").onclick = function () {
+    location.href = "./contacto.html"
 }

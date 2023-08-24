@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() {
-    window.addEventListener('scroll', function() {
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener('scroll', function () {
         if (window.scrollY > 50) {
             document.getElementById('navbar_top').classList.add('fixed-top');
             // add padding top to show content behind navbar
@@ -22,10 +22,10 @@ const navLinks = document.querySelectorAll(' nav .a').forEach(link => {
     }
 })
 
-document.getElementById("btn-gallery").onclick = function() {
-    location.href = "/galeria.html"
+document.getElementById("btn-gallery").onclick = function () {
+    location.href = "./galeria.html"
 }
 
-document.getElementById("btn-contacto").onclick = function() {
-    location.href = "/contacto.html"
+document.getElementById("btn-contacto").onclick = function () {
+    location.href = "./contacto.html"
 }
