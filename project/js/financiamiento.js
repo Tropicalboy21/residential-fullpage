@@ -135,7 +135,14 @@ const iniciar = () => {
 
 const continuar = () => {
     let error = false
-    const d = new Date();
+    const date = new Date();
+
+    const d = new Date().toLocaleDateString('en-GB', {
+        hour12: false,
+    });
+
+    let randomNum = Math.floor(100000 + Math.random() * 900000);
+
     let nombre = inNombre.value;
     let apellido = inApellido.value;
     let salario = inSalario.value;
@@ -180,12 +187,14 @@ const continuar = () => {
             document.getElementById('deposito').innerHTML = '+ $600';
         }
 
+        document.getElementById("numResult").innerHTML = "ID #" + randomNum;
         document.getElementById('impuestos').innerHTML = '+ $1200';
         document.getElementById('precio').innerHTML = '$1.100.000';
         document.getElementById('nombre').innerHTML = nombre;
         document.getElementById('apellido').innerHTML = apellido;
         document.getElementById('fecha').innerHTML = d;
         document.getElementById('salario').innerHTML = "$" + salario;
+
 
         document.getElementById("page-1").style.display = "none";
         document.getElementById("page-2").style.display = "none";

@@ -35,35 +35,35 @@
                 <div class="gigi">
                     <ul class="nav navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link a" href="./home.html">Inicio</a>
+                            <a data-scroll class="menuHomep nav-link a" href="./home.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./proyecto.html">Proyecto</a>
+                            <a class="menuSectionOnep nav-link a" href="./proyecto.html">Proyecto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./apartamentos.html">Apartamentos</a>
+                            <a class="menuSectionTwop nav-link a" href="./apartamentos.html">Apartamentos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./amenidades.html">Amenidades</a>
+                            <a class="menuSectionThreep nav-link a" href="./amenidades.html">Amenidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./galeria.html">Galeria</a>
+                            <a class="menuSectionFourp nav-link a" href="./galeria.html">Galeria</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./financiamiento.html">Financiamiento</a>
+                            <a class="menuSectionFivep nav-link a" href="./financiamiento.html">Financiamiento</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./contacto.html">Contacto</a>
+                            <a class="menuSectionSixp nav-link a" href="./contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="lang-selector d-flex p-3">
-                <div class="lang-selector-item-1 p-1">
-                    <a class="text-decoration-none" href="">ES</a>
+                <div class="lang-selector-item lang-selector-item-1 p-1">
+                    <a language="español" class="text-decoration-none" onclick="contactSpanish()" href="#">ES</a>
                 </div>
-                <div class="lang-selector-item-2 p-1">
-                    <a class="text-decoration-none" href="">EN</a>
+                <div class="lang-selector-item lang-selector-item-2 p-1">
+                    <a language="english" class="text-decoration-none" onclick="contactEnglish()" href="#">EN</a>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@
                             <div class="form d-flex justify-content-center">
                                 <div class="form-group">
                                     <div>
-                                        <h1 class="parrafo text-center p-5">Nuestro equipo de ventas espera programar su recorrido privado en el lugar.</h1>
+                                        <h1 class="paragraph text-center p-5">Nuestro equipo de ventas espera programar su recorrido privado en el lugar.</h1>
                                     </div>
                                     <input type="text" class="form-control" name="" id="nombre" placeholder="Nombre Completo">
                                     <input type="text" class="form-control" name="correo" id="correo" placeholder="Correo Electrónico">
@@ -97,8 +97,8 @@
                                             <input type="text" class="form-control" name="" id="estado" placeholder="Estado/Provincia">
                                         </div>
                                     </div>
-                                    <input type="text" class="form-control" name="" id="" placeholder="¿Eres un Agente de Bienes Raices? (opcional)">
-                                    <input type="text" class="form-control" name="" id="" placeholder="Comentarios (opcional)">
+                                    <input type="text" class="form-control" name="" id="agente" placeholder="¿Eres un Agente de Bienes Raices? (opcional)">
+                                    <input type="text" class="form-control" name="" id="comentario" placeholder="Comentarios (opcional)">
                                     <div class="d-flex justify-content-center align-items-center m-2">
                                         <div class="container2">
                                             <div class="center">
@@ -107,7 +107,7 @@
                                                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                                                 </svg>
-                                                <span>Enviar</span>
+                                                <span class="sendButton">Enviar</span>
                                                 </button>
                                             </div>
                                         </div>
@@ -164,13 +164,13 @@
     <footer class=" footer p-4 mt-2">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
-                <h1 class="text-white" style="font-weight: bold; font-size: 25px;">Jardín del Tesoro</h1>
+                <h1 class="text-white bottomTitle" style="font-weight: bold; font-size: 25px;">Jardín del Tesoro</h1>
             </div>
             <div class="d-flex justify-content-center align-items-center">
-                <p class="text-white text-center">Los espacios de vida y entretenimiento más grandiosos</p>
+                <p class="text-white text-center bottomText">Los espacios de vida y entretenimiento más grandiosos</p>
             </div>
             <div class="d-flex justify-content-center align-items-center">
-                <a class="text-center text-white">treasuregarden@aol.com</a>
+                <a class="text-center text-white ">treasuregarden@aol.com</a>
             </div>
 
         </div>
@@ -185,6 +185,9 @@
     <script src="./js/scrolltop.js"></script>
 
     <script src="./js/contacto.js"></script>
+
+    <!-- idioma -->
+    <script src="./js/idioma-contacto.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>

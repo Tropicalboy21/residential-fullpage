@@ -139,7 +139,7 @@ hr {
     font-weight: bold;
 }
 
-.txt-box .parrafo {
+.txt-box .paragraph {
     font-size: 22px !important;
     font-weight: lighter;
 }
@@ -383,6 +383,7 @@ svg {
     .a::after {
         bottom: 17px;
     }
+
     .b::after {
         bottom: 17px;
     }

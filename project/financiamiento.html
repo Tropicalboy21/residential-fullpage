@@ -38,35 +38,35 @@
                 <div class="gigi">
                     <ul class="nav navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link a" href="./home.html">Inicio</a>
+                            <a data-scroll class="menuHomep nav-link a" href="./home.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./proyecto.html">Proyecto</a>
+                            <a class="menuSectionOnep nav-link a" href="./proyecto.html">Proyecto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./apartamentos.html">Apartamentos</a>
+                            <a class="menuSectionTwop nav-link a" href="./apartamentos.html">Apartamentos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./amenidades.html">Amenidades</a>
+                            <a class="menuSectionThreep nav-link a" href="./amenidades.html">Amenidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./galeria.html">Galeria</a>
+                            <a class="menuSectionFourp nav-link a" href="./galeria.html">Galeria</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./financiamiento.html">Financiamiento</a>
+                            <a class="menuSectionFivep nav-link a" href="./financiamiento.html">Financiamiento</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./contacto.html">Contacto</a>
+                            <a class="menuSectionSixp nav-link a" href="./contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="lang-selector d-flex p-3">
-                <div class="lang-selector-item-1 p-1">
-                    <a class="text-decoration-none" href="">ES</a>
+                <div class="lang-selector-item lang-selector-item-1 p-1">
+                    <a language="español" class="text-decoration-none active" href="#">ES</a>
                 </div>
-                <div class="lang-selector-item-2 p-1">
-                    <a class="text-decoration-none" href="">EN</a>
+                <div class="lang-selector-item lang-selector-item-2 p-1">
+                    <a language="english" class="text-decoration-none active" href="#">EN</a>
                 </div>
             </div>
         </div>
@@ -87,15 +87,15 @@
                             <div class="form d-flex justify-content-center">
                                 <div class="form-group">
                                     <div>
-                                        <h1 class="parrafo text-center p-5">Explora nuestros beneficios con las imagenes que se muestran del lado derecho.</h1>
+                                        <h1 class="parrafo sct-txt text-center p-5">Explora nuestros beneficios con las imagenes que se muestran del lado derecho.</h1>
                                     </div>
                                     <div class=" d-flex align-items-center justify-content-center">
                                         <select name="beneficio" id="beneficio">
-                                            <option selected disabled>Seleccione un Beneficio:</option>
-                                            <option>Ubicación</option>
-                                            <option>Arquitectura</option>
-                                            <option>Seguridad</option>
-                                            <option>Extravagancia</option>
+                                            <option class="select1" selected disabled>Seleccione un Beneficio:</option>
+                                            <option class="opt1">Ubicación</option>
+                                            <option class="opt2">Arquitectura</option>
+                                            <option class="opt3">Seguridad</option>
+                                            <option class="opt4">Extravagancia</option>
                                         </select>
                                     </div>
                                     <div class="d-flex justify-content-center align-items-center m-2">
@@ -135,21 +135,21 @@
                             <div class="form d-flex justify-content-center">
                                 <div class="form-group">
                                     <div>
-                                        <h1 class="parrafo text-center p-5">¿Eres un Agente de Bienes raices? ¿deseas obtener más información para trabajar en conjunto con el Jardin del Tesoro? </h1>
+                                        <h1 class="parrafo sct-txt2 text-center p-5">¿Eres un Agente de Bienes raices? ¿deseas obtener más información para trabajar en conjunto con el Jardin del Tesoro? </h1>
                                     </div>
                                     <div class=" inputs pt-4 text-center">
-                                        <h4>Años de experiencia</h4>
+                                        <h4 class="title-txt">Años de experiencia</h4>
                                         <select name="experiencia" id="experiencia">
-                                            <option selected disabled>Seleccionar años de experiencia</option>
-                                            <option>6 meses</option>
-                                            <option>1 año</option>
-                                            <option>2 años</option>
-                                            <option>3 años</option>
+                                            <option class="select2" selected disabled>Seleccionar años de experiencia:</option>
+                                            <option class="opt5">6 meses</option>
+                                            <option class="opt6">1 año</option>
+                                            <option class="opt7">2 años</option>
+                                            <option class="opt8">3 años</option>
                                         </select>
                                         <div class="pt-3"></div>
-                                        <h4>Ciudad donde laboras</h4>
+                                        <h4 class="title-txt2">Ciudad donde laboras</h4>
                                         <select name="ubicacion" id="ubicacion">
-                                            <option selected disabled>Seleccionar ciudad de la licencia</option>
+                                            <option class="select3" selected disabled>Seleccionar ciudad de la licencia</option>
                                             <option>Miaoli</option>
                                             <option>Taichung</option>
                                             <option>Changhua</option>
@@ -160,7 +160,7 @@
                                     <div class="d-flex justify-content-center align-items-center m-2">
                                         <div class="container2">
                                             <div class="center">
-                                                <button class="btn btn-outline-dark btn-lg mt-3" onclick="validar()">Más info</button>
+                                                <button class="miButton btn btn-outline-dark btn-lg mt-3" onclick="validar()">Más info</button>
                                             </div>
                                         </div>
                                     </div>
@@ -188,11 +188,10 @@
                         <!-- page 1 -->
                         <div id="page-1" class="p-4 bg-white shadow-sm rounded txt-box" style="display: block;">
                             <div class="mb-3 text-center">
-                                <h3 class="">Realice su Cotización</h3>
+                                <h3 class="title-txt3">Realice su Cotización</h3>
                             </div>
                             <div>
-                                <p class="parrafo">En la industria inmobiliaria contar con las mejores prácticas de cotización de propiedades es vital para cerrar más y mejores tratos. Ningún comprador quiere pagar el precio más alto por una casa, por lo que este recurso
-                                    es necesario para que la negociación sea beneficiosa para ambas partes.</p>
+                                <p class="parrafo txt-p">En la industria inmobiliaria contar con las mejores prácticas de cotización de propiedades es vital para cerrar más y mejores tratos. Ningún comprador quiere pagar el precio más alto por una casa, por lo que este recurso es necesario para que la negociación sea beneficiosa para ambas partes.</p>
                             </div>
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="container1">
@@ -202,7 +201,7 @@
                                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                                             </svg>
-                                            <span class="text-black">Iniciar</span>
+                                            <span class="startButton text-black">Iniciar</span>
                                             </button>
                                     </div>
                                 </div>
@@ -213,32 +212,32 @@
                         <div id="page-2" class="p-4 layer shadow-sm rounded" style="display: none;">
                             <div class="mb-4">
                                 <div class="mb-3">
-                                    <h3>Datos Personales</h3>
+                                    <h3 class="title-txt4">Datos Personales</h3>
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label" for="in-nombre">Nombre:</label>
+                                <label class="form-label form-label1" for="in-nombre">Nombre:</label>
                                 <input class="form-control" id="in-nombre" type="text" />
                             </div>
                             <div class="mb-3">
-                                <label class="form-label" for="in-apellido">Apellido:</label>
+                                <label class="form-label form-label2" for="in-apellido">Apellido:</label>
                                 <input class="form-control" id="in-apellido" type="text" />
                             </div>
                             <div class="mb-3">
-                                <label class="form-label" for="in-salario">Salario:</label>
+                                <label class="form-label form-label3" for="in-salario">Salario:</label>
                                 <input class="form-control" id="in-salario" type="number" />
                             </div>
                             <div class="mb-3">
-                                <label class="form-label" for="in-accion">Acción:</label>
+                                <label class="form-label form-label4" for="in-accion">Acción:</label>
                                 <select name="accion" id="in-accion">
-                                <option selected disabled>Seleccione una accion:</option>
-                                <option>Comprar</option>
-                                <option>Alquiler</option>
+                                <option class="select4" selected disabled>Seleccione una accion:</option>
+                                <option class="opt9">Comprar</option>
+                                <option class="opt10">Alquiler</option>
                                 </select>
                             </div>
                             <div class="text-center d-flex">
-                                <button class="btn btn-outline-success" id="btn-continuar" type="button">Continuar</button>
-                                <button class="btn btn-outline-danger" id="btn-cancelar" type="button">Cancelar</button>
+                                <button class=" btn btn-outline-success nextButton" id="btn-continuar" type="button">Continuar</button>
+                                <button class="btn btn-outline-danger cancelButton" id="btn-cancelar" type="button">Cancelar</button>
                             </div>
                         </div>
 
@@ -246,51 +245,51 @@
                         <div id="page-3" class="p-4 layer shadow-sm rounded" style="display: none;">
                             <div class="mb-4">
                                 <div class="mb-3">
-                                    <h3>Servicios</h3>
+                                    <h3 class="title-txt5">Servicios</h3>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <form class="" action="">
-                                    <p class="fw-bold">¿Deseas ser parte del Jardin del tesoro Club?</p>
+                                    <p class="fw-bold q1">¿Deseas ser parte del Jardin del tesoro Club?</p>
                                     <div>
                                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample1" />
-                                        <label class="form-check-label" for="radioExample1"> Si</label>
+                                        <label class="form-check-label a1" for="radioExample1"> Si</label>
                                     </div>
                                     <div class="form-check mb-2 d-flex">
                                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample2" />
-                                        <label class="form-check-label" for="radioExample2"> No</label>
+                                        <label class="form-check-label a2" for="radioExample2"> No</label>
                                     </div>
                                 </form>
                             </div>
                             <div class="mb-3">
                                 <form class="" action="">
-                                    <p class="fw-bold">¿Deseas Tener Chef personal?</p>
+                                    <p class="fw-bold q2">¿Deseas Tener Chef personal?</p>
                                     <div>
                                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample3" />
-                                        <label class="form-check-label" for="radioExample3"> Si</label>
+                                        <label class="form-check-label a3" for="radioExample3"> Si</label>
                                     </div>
                                     <div class="form-check mb-2 d-flex">
                                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample4" />
-                                        <label class="form-check-label" for="radioExample4"> No</label>
+                                        <label class="form-check-label a4" for="radioExample4"> No</label>
                                     </div>
                                 </form>
                             </div>
                             <div class="mb-3">
                                 <form class="" action="">
-                                    <p class="fw-bold">¿Deseas servicio de limpieza?</p>
+                                    <p class="fw-bold q3">¿Deseas servicio de limpieza?</p>
                                     <div>
                                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample5" />
-                                        <label class="form-check-label" for="radioExample5"> Si</label>
+                                        <label class="form-check-label a5" for="radioExample5"> Si</label>
                                     </div>
                                     <div class="form-check mb-2 d-flex">
                                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample6" />
-                                        <label class="form-check-label" for="radioExample6"> No</label>
+                                        <label class="form-check-label a6" for="radioExample6"> No</label>
                                     </div>
                                 </form>
                             </div>
                             <div class="text-center d-flex">
-                                <button class="btn btn-outline-success" id="btn-continuar2" type="button">Continuar</button>
-                                <button class="btn btn-outline-danger" id="btn-cancelar2" type="button">Cancelar</button>
+                                <button class="btn btn-outline-success nextButton2" id="btn-continuar2" type="button">Continuar</button>
+                                <button class="btn btn-outline-danger cancelButton2" id="btn-cancelar2" type="button">Cancelar</button>
                             </div>
                         </div>
 
@@ -298,46 +297,46 @@
                         <div id="page-4" class="p-4 layer shadow-sm rounded" style="display: none;">
                             <div class="mb-4">
                                 <div class="mb-4">
-                                    <h3>Datos de Apartamento</h3>
+                                    <h3 class="title-txt6">Datos de Apartamento</h3>
                                 </div>
                             </div>
                             <div class="mb-4">
                                 <div>
-                                    <label class="form-label" for="in-nombre">Numero de piso:</label>
+                                    <label class="form-label form-label5" for="in-nombre">Numero de piso:</label>
                                 </div>
                                 <select name="accion" id="piso">
-                                    <option selected disabled>pisos disponibles:</option>
-                                    <option>4to piso</option>
-                                    <option>16to piso</option>
-                                    <option>17to piso</option>
-                                    <option>22do piso</option>
+                                    <option class="select5" selected disabled>pisos disponibles:</option>
+                                    <option class="opt11">4to piso</option>
+                                    <option class="opt12">16to piso</option>
+                                    <option class="opt13">17to piso</option>
+                                    <option class="opt14">22do piso</option>
                                     </select>
                             </div>
                             <div class="mb-4">
                                 <div>
-                                    <label class="form-label" for="in-precio">¿Apartamento Completo o parcial?:</label>
+                                    <label class=" form-label6 form-label" for="in-precio">¿Apartamento Completo o parcial?:</label>
                                 </div>
                                 <select name="accion" id="apartamento">
-                                <option selected disabled>Seleccione una opcion:</option>
-                                <option>Completo</option>
-                                <option>parcial</option>
+                                <option class="select6" selected disabled>Seleccione una opcion:</option>
+                                <option class="opt15">Completo</option>
+                                <option class="opt16">parcial</option>
                                 </select>
                             </div>
                             <div class="mb-4">
                                 <div>
-                                    <label class="form-label" for="in-precio">¿Numero de cuartos?:</label>
+                                    <label class="form-label form-label7" for="in-precio">¿Numero de cuartos?:</label>
                                 </div>
                                 <select name="accion" id="cuartos">
-                                <option selected disabled>Seleccione una opcion:</option>
-                                <option>1 cuarto</option>
-                                <option>3 cuartos</option>
-                                <option>4 cuartos</option>
-                                <option>8 cuartos</option>
+                                <option class="select7" selected disabled>Seleccione una opcion:</option>
+                                <option class="opt17">1 cuarto</option>
+                                <option class="opt18">3 cuartos</option>
+                                <option class="opt19">4 cuartos</option>
+                                <option class="opt20">8 cuartos</option>
                                 </select>
                             </div>
                             <div class="text-center d-flex">
-                                <button class="btn btn-outline-success" id="btn-continuar3" type="button">Finalizar</button>
-                                <button class="btn btn-outline-danger" id="btn-cancelar3" type="button">Reiniciar</button>
+                                <button class="btn btn-outline-success endButton" id="btn-continuar3" type="button">Finalizar</button>
+                                <button class="btn btn-outline-danger cancelButton3" id="btn-cancelar3" type="button">Cancelar</button>
                             </div>
                         </div>
                     </div>
@@ -352,7 +351,6 @@
                                         <div id="animacion" style="display: block;">
                                             <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_C1zbAVnPjD.json" background="transparent" speed="1" style="width: 100%; height: 600px;" loop autoplay></lottie-player>
                                         </div>
-
                                         <!-- resultado -->
                                         <div id="resultado" class="container" style="display: none;">
                                             <div class=" d-flex justify-content-center m-5">
@@ -360,19 +358,18 @@
                                                     <img src="./imgs/Frame2.1.png" alt="">
                                                 </div>
                                             </div>
-
                                             <div class="row">
                                                 <ul class="list-unstyled">
                                                     <div class="d-flex">
                                                         <li class="text-black me-1" id="nombre">XXX</li>
                                                         <li class="text-black" id="apellido">XXX</li>
                                                     </div>
-                                                    <li class="text-muted mt-1"><span class="text-black">Cotización</span> #13145</li>
+                                                    <li id="numResult" class="text-muted mt-1">#</li>
                                                     <li class="text-black mt-1" id="fecha">XXX</li>
                                                 </ul>
                                                 <hr>
                                                 <div class="col-xl-10">
-                                                    <p>Salario</p>
+                                                    <p class="r1">Salario</p>
                                                 </div>
                                                 <div class="col-xl-2">
                                                     <p id="salario" class="float-end">$0.00
@@ -382,7 +379,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-xl-10">
-                                                    <p>Jardín del Tesoro Club</p>
+                                                    <p class="r2">Jardín del Tesoro Club</p>
                                                 </div>
                                                 <div class="col-xl-2">
                                                     <p id="club" class="float-end">$0.00
@@ -392,7 +389,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-xl-10">
-                                                    <p>Chef personal</p>
+                                                    <p class="r3">Chef personal</p>
                                                 </div>
                                                 <div class="col-xl-2">
                                                     <p id="chef" class="float-end">$0.00
@@ -402,7 +399,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-xl-10">
-                                                    <p>Servicio de limpieza</p>
+                                                    <p class="r4" >Servicio de limpieza</p>
                                                 </div>
                                                 <div class="col-xl-2">
                                                     <p id="servicio" class="float-end">$0.00
@@ -412,7 +409,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-xl-10">
-                                                    <p>Precio</p>
+                                                    <p class="r5">Precio</p>
                                                 </div>
                                                 <div class="col-xl-2">
                                                     <p id="precio" class="float-end">$0.00
@@ -422,7 +419,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-xl-10">
-                                                    <p>Deposito</p>
+                                                    <p class="r6">Deposito</p>
                                                 </div>
                                                 <div class="col-xl-2">
                                                     <p id="deposito" class="float-end">$0.00
@@ -432,7 +429,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-xl-10">
-                                                    <p>Prima</p>
+                                                    <p class="r7">Prima</p>
                                                 </div>
                                                 <div class="col-xl-2">
                                                     <p id="prima" class="float-end">$0.00
@@ -442,7 +439,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-xl-10">
-                                                    <p>Numero de piso</p>
+                                                    <p class="r8">Numero de piso</p>
                                                 </div>
                                                 <div class="col-xl-2">
                                                     <p id="piso-txt" class="float-end">XXX
@@ -452,7 +449,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-xl-10">
-                                                    <p>Apartamento</p>
+                                                    <p class="r9">Apartamento</p>
                                                 </div>
                                                 <div class="col-xl-2">
                                                     <p id="apartamento-txt" class="float-end"> XXX
@@ -462,7 +459,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-xl-10">
-                                                    <p>Numero de habitaciones</p>
+                                                    <p class="r10">Numero de habitaciones</p>
                                                 </div>
                                                 <div class="col-xl-2">
                                                     <p id="cuartos-txt" class="float-end"> XXX
@@ -472,7 +469,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-xl-10">
-                                                    <p>Impuestos Estimados</p>
+                                                    <p class="r11">Impuestos Estimados</p>
                                                 </div>
                                                 <div class="col-xl-2">
                                                     <p id="impuestos" class="float-end">$0.00
@@ -488,9 +485,8 @@
                                                 <hr style="border: 2px solid black;">
                                             </div>
                                             <div class="text-center" style="margin-top: 90px;">
-                                                <p>Gracias por confiar en nosotros. </p>
+                                                <p class="footerR">Gracias por confiar en nosotros. </p>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -501,66 +497,68 @@
             </div>
         </main>
     </section>
+
+    <!-- sct-cali -->
     <section>
         <div class="text-center text-white p-3" style="background-color: #727f8d;">
-            <h1>Calificanos</h1>
+            <h1 class="title-txt7">Calificanos</h1>
         </div>
         <main class="container">
             <div class="">
                 <h4 class="fw-bold text-center mt-3"></h4>
                 <form class=" bg-white px-4" action="">
-                    <p class="fw-bold">¿Que tan útil fue la cotización?</p>
+                    <p class="fw-bold q4">¿Que tan útil fue la cotización?</p>
                     <div class="form-check mb-2">
                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample7" />
-                        <label class="form-check-label" for="radioExample7">Malo</label>
+                        <label class="form-check-label a7" for="radioExample7">Malo</label>
                     </div>
                     <div class="form-check mb-2">
                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample8" />
-                        <label class="form-check-label" for="radioExample8">Regular</label>
+                        <label class="form-check-label a8" for="radioExample8">Regular</label>
                     </div>
                     <div class="form-check mb-2">
                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample9" />
-                        <label class="form-check-label" for="radioExample9">Excelente</label>
+                        <label class="form-check-label a9" for="radioExample9">Excelente</label>
                     </div>
                 </form>
             </div>
             <div class="">
                 <h4 class="fw-bold text-center mt-3"></h4>
                 <form class=" bg-white px-4" action="">
-                    <p class="fw-bold">¿Cúal es la Calidad de los videos?</p>
+                    <p class="fw-bold q5">¿Cúal es la Calidad de los videos?</p>
                     <div class="form-check mb-2">
                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample10" />
-                        <label class="form-check-label" for="radioExample10">Malo</label>
+                        <label class="form-check-label a10" for="radioExample10">Malo</label>
                     </div>
                     <div class="form-check mb-2">
                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample11" />
-                        <label class="form-check-label" for="radioExample11">Regular</label>
+                        <label class="form-check-label a11" for="radioExample11">Regular</label>
                     </div>
                     <div class="form-check mb-2">
                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample12" />
-                        <label class="form-check-label" for="radioExample12">Excelente</label>
+                        <label class="form-check-label a12" for="radioExample12">Excelente</label>
                     </div>
                 </form>
             </div>
             <div class="">
                 <h4 class="fw-bold text-center mt-3"></h4>
                 <form class=" bg-white px-4" action="">
-                    <p class="fw-bold">¿Cúal es la calidad de el resultado?</p>
+                    <p class="fw-bold q6">¿Cúal es la calidad de el resultado?</p>
                     <div class="form-check mb-2">
                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample13" />
-                        <label class="form-check-label" for="radioExample1">Malo</label>
+                        <label class="form-check-label a13" for="radioExample1">Malo</label>
                     </div>
                     <div class="form-check mb-2">
                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample14" />
-                        <label class="form-check-label" for="radioExample2">Regular</label>
+                        <label class="form-check-label a14" for="radioExample2">Regular</label>
                     </div>
                     <div class="form-check mb-2">
                         <input class="form-check-input" type="radio" name="exampleForm" id="radioExample15" />
-                        <label class="form-check-label" for="radioExample3">Excelente</label>
+                        <label class="form-check-label a15" for="radioExample3">Excelente</label>
                     </div>
                 </form>
                 <div class="text-center m-5">
-                    <button style="background-color: #727f8d;" type="button" class="btn btn-dark" id="btn-pop">Calificar</button>
+                    <button style="background-color: #727f8d;" type="button" class="btn btn-dark surveyButton" id="btn-pop">Calificar</button>
                 </div>
             </div>
         </main>
@@ -571,10 +569,10 @@
     <footer class=" footer p-4 mt-2">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
-                <h1 class="text-white" style="font-weight: bold; font-size: 25px;">Jardín del Tesoro</h1>
+                <h1 class="bottomTitle text-white" style="font-weight: bold; font-size: 25px;">Jardín del Tesoro</h1>
             </div>
             <div class="d-flex justify-content-center align-items-center">
-                <p class="text-white text-center">Los espacios de vida y entretenimiento más grandiosos</p>
+                <p class="bottomText text-white text-center">Los espacios de vida y entretenimiento más grandiosos</p>
             </div>
             <div class="d-flex justify-content-center align-items-center">
                 <div class="container1">
@@ -584,7 +582,7 @@
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                             </svg>
-                            <span>Contacto</span>
+                            <span class="footerButton">Contacto</span>
                             </button>
                     </div>
                 </div>
@@ -603,6 +601,9 @@
 
     <!-- Javascript -->
     <script src="./js/financiamiento.js"></script>
+
+    <!-- idioma -->
+    <script src="./js/idioma-financiamiento.js"></script>
 
     <!-- libreria SweetAlert -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
