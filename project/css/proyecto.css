@@ -139,6 +139,12 @@ hr {
     font-weight: bold;
 }
 
+
+.txt-box .title2 {
+    font-size: 50px !important;
+    font-weight: bold;
+}
+
 .txt-box .paragraph {
     font-size: 22px !important;
     font-weight: lighter;
@@ -328,7 +334,7 @@ svg {
 }
 
 .dev {
-    height: 670px;
+    height: auto !important;
 }
 
 

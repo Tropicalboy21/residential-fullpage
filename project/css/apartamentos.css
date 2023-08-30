@@ -136,7 +136,14 @@ hr {
 
 .txt-box {
     font-family: "Gibson", sans-serif;
+
 }
+
+.txt-box1 {
+    font-family: "Gibson", sans-serif;
+    height: 670px !important;
+}
+
 
 .txt-box .title {
     font-size: 50px !important;
@@ -149,6 +156,12 @@ hr {
 }
 
 .txt-box .paragraph {
+    font-size: 22px !important;
+    font-weight: lighter;
+}
+
+
+.txt-box1 .paragraph {
     font-size: 22px !important;
     font-weight: lighter;
 }
@@ -335,6 +348,10 @@ svg {
     height: 670px !important;
 }
 
+.news1 {
+    height: 670px !important;
+}
+
 
 /* section 3 */
 
@@ -509,4 +526,11 @@ svg {
     background-color: #565B5D;
     font-family: "Gibson", sans-serif;
     font-weight: lighter;
+}
+
+
+@media (max-width: 390px) {
+    .news {
+        width: 370px !;
+    }
 }

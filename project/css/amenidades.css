@@ -297,6 +297,10 @@ svg {
 }
 
 
+.news1 {
+    height: 670px !important;
+}
+
 /* section 3 */
 
 .banner3 {
@@ -333,7 +337,6 @@ svg {
     transform: scale(1.4);
 }
 
-
 /* Footer */
 
 .footer {
@@ -341,7 +344,6 @@ svg {
     font-family: "Gibson", sans-serif;
     font-weight: lighter;
 }
-
 
 /* Media querys */
 
@@ -352,5 +354,12 @@ svg {
 
     .b::after {
         bottom: 17px;
+    }
+
+}
+
+@media(max-width: 390px) {
+    .news1 {
+        height: 370px !important;
     }
 }

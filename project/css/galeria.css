@@ -317,12 +317,14 @@ svg {
 }
 
 
+
 /* Media querys */
 
 @media(max-width: 542px) {
     .a::after {
         bottom: 17px;
     }
+
     .b::after {
         bottom: 17px;
     }

@@ -145,6 +145,12 @@ hr {
 }
 
 
+.d-block {
+    width: 100%;
+}
+
+
+
 /* botones */
 
 #myBtn {
@@ -312,4 +318,14 @@ svg {
 
 .input-error {
     border: 2px solid red !important;
+}
+
+@media(max-width: 390px) {
+    .bg6 {
+        margin: 0;
+    }
+
+    .news {
+        height: 370px !important;
+    }
 }

@@ -290,6 +290,11 @@ svg {
     height: 670px;
 }
 
+
+.news1 {
+    height: 670px;
+}
+
 .form-group {
     width: 410px;
 }
@@ -323,4 +328,19 @@ svg {
     background-color: #3B485B;
     font-family: "Gibson", sans-serif;
     font-weight: lighter;
+}
+
+select {
+    padding: 10px;
+    font-family: "Gibson", sans-serif;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+
+
+@media(max-width: 390px) {
+    .news1 {
+        height: 370px;
+    }
 }
